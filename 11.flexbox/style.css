@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 200px;
+    border: 2px solid red;
+    display: flex;
+    flex-flow: wrap row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.box{
+    border: 2px solid green;
+    margin: 10px 0;
+    width: 80px;
+}
+
+#box-1{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 200px;
+}
+
+#box-5{
+    align-self: flex-start;
+}

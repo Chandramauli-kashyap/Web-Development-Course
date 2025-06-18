@@ -1,0 +1,16 @@
+h1{
+
+    color: blue;
+    background-color: brown;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+    text-shadow: 4px 4px 1px ;
+}
+
+p{
+    text-indent: 20px;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+}
