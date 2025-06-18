@@ -1,0 +1,24 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    font-size: large;
+}
+
+#first>p{
+    color: green;
+}
+
+#first, #second{
+    color: aquamarine;
+}
+
+.purple{
+    color: purple;
+}
+
+.highlight{
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
